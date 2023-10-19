@@ -1,0 +1,76 @@
+nav{
+    background-color: white;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box, .item_list, ul{
+    display: flex;
+    align-items: center;
+}
+img {
+    height: 107px;
+    width: 150px;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li {
+    color: black;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+}
+h1 {
+    font-style: inherit;
+    font-size: 90px;
+}
+.item_list {
+    background-color: rgb(109, 109, 109);
+    height: inherit;
+    border: 1px solid black;
+    border-radius: 25px 0px 0px 25px;
+    translate: 350px 0;
+    transition: all ease-in-out 0.5s;
+    
+}
+.babi{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.item_list:hover > .babi{
+    visibility: hidden;
+}
+
+
+
+.item_list:hover {
+    background-color: white;
+    height: inherit;
+    border: 1px solid white;
+    border-radius: 25px 0px 0px 25px;
+    translate: 0 0;
+    transition: all ease-in-out 0.5s;
+}
+.JK {
+    width: 100vw;
+    height: 440px;
+}
+marquee {
+    background-color: black; /* Ganti dengan warna yang Anda inginkan */
+    color: #fff; /* Ganti dengan warna teks yang cocok dengan latar belakang */
+    padding: 10px; /* Atur padding sesuai kebutuhan */
+  }
